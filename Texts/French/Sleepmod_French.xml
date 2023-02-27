@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="French" nowhitespace="false" translatedname="Français">
+
+<!-- Afflictions -->
+    <!-- Sleepily -->
+    <afflictionname.sleepily>Fatigue</afflictionname.sleepily>
+    <afflictiondescription.sleepily.low.self>Fatigue Faible</afflictiondescription.sleepily.low.self>
+    <afflictiondescription.sleepily.medium.self>Vous vous sentez Fatigue</afflictiondescription.sleepily.medium.self>
+    <afflictiondescription.sleepily.high.self>Vous étes trés Fatigue</afflictiondescription.sleepily.high.self>
+    <afflictiondescription.sleepily.total.self>Vous étes trés Fatigue</afflictiondescription.sleepily.total.self>
+
+    <!-- Sleepily -->
+    <afflictionname.stimulants>Stimulant</afflictionname.stimulants>
+
+    <!-- cafee Adiction -->
+    <afflictionname.caffeineaddiction>Addiction au café</afflictionname.caffeineaddiction>
+
+
+<!-- Items-->
+    <!-- Café-->
+    <entityname.cafee>Café</entityname.cafee>
+
+<!-- Seeds-->
+<entityname.coffeeseed>Graine de café</entityname.coffeeseed>
+</infotexts>

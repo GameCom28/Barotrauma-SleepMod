@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="SleepMod" modversion="0.0.1" path="Mods/SleepMod/" corepackage="false" gameversion="0.20.15.0" steamworkshopid="0" installtime="0">
+  <Text file="%ModDir%/Texts/French/Sleepmod_French.xml"/>
+  <Text file="%ModDir%/Texts/English/Sleepmod_English.xml"/>
+  <Afflictions file="%ModDir%/Afflictions.xml" />
+  <Item file="%ModDir%/Items/Gardening/seeds.xml"/>
+  <Item file="%ModDir%/Items/Medical/medical.xml"/>
+</contentpackage>

@@ -1,0 +1,49 @@
+
+<Items>
+<Item name="" identifier="coffeeseed" category="Misc" Tags="smallitem,seed,plantitem" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" spritecolor="177,139,62,255">
+    <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="830,636,31,30" origin="0.5,0.5" />
+    <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.1" />
+    <PreferredContainer primary="seedbag" amount="1" spawnprobability="0.3" />
+    <Price baseprice="30">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="0.9" minavailable="2" />
+      <Price storeidentifier="merchantmilitary" sold="false" multiplier="1.2" />
+      <Price storeidentifier="merchantmine" sold="false" multiplier="0.75" />
+    </Price>
+    <Deconstruct time="30">
+      <Item identifier="carbon" mincondition="0.5" />
+    </Deconstruct>
+    <Growable growthspeed="0.070" pickingtime="3" maximumvines="24" maxhealth="500" hardiness="0.15" floodtolerance="0.4" seedrate="0" productrate="0.033" flowertint="255,255,255,255" flowerquantity="10" baseflowerscale="0.35" vinescale="0.25" vinetint="244,172,132,255">
+      <ProducedItem identifier="coffeeseed" probability="1" />
+      <VineSprites vineatlas="Content/Items/Gardening/branches.png" decayatlas="Content/Items/Gardening/branches_overlay.png">
+        <LeafSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="0,0,256,256" />
+        <LeafSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="256,0,256,256" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="0,768,128,128" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="128,768,128,128" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="256,768,128,128" />
+        <VineSprite type="Stem" sourcerect="640,128,128,128" />
+        <VineSprite type="CrossJunction" sourcerect="512,128,128,128" />
+        <VineSprite type="VerticalLane" sourcerect="512,0,128,128" />
+        <VineSprite type="HorizontalLane" sourcerect="640,0,128,128" />
+        <VineSprite type="TurnTopRight" sourcerect="0,0,128,128" />
+        <VineSprite type="TurnTopLeft" sourcerect="384,0,128,128" />
+        <VineSprite type="TurnBottomLeft" sourcerect="256,0,128,128" />
+        <VineSprite type="TurnBottomRight" sourcerect="128,0,128,128" />
+        <VineSprite type="TSectionTop" sourcerect="128,128,128,128" />
+        <VineSprite type="TSectionLeft" sourcerect="256,128,128,128" />
+        <VineSprite type="TSectionBottom" sourcerect="384,128,128,128" />
+        <VineSprite type="TSectionRight" sourcerect="0,128,128,128" />
+        <VineSprite type="StumpTop" sourcerect="768,0,128,128" />
+        <VineSprite type="StumpLeft" sourcerect="896,0,128,128" />
+        <VineSprite type="StumpBottom" sourcerect="768,128,128,128" />
+        <VineSprite type="StumpRight" sourcerect="896,128,128,128" />
+      </VineSprites>
+    </Growable>
+    <Body radius="15" density="12" />
+    <Holdable canBeCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <Upgrade gameversion="0.15.22.0">
+      <Growable growthspeed="0.070" hardiness="0.15" floodtolerance="0.4" productrate="0.022"/>
+    </Upgrade>
+  </Item>
+</Items>

@@ -1,0 +1,130 @@
+<Afflictions>
+
+<Affliction
+    name="Sleepily"
+    identifier="sleepily"
+    type="sleepily"
+    limbspecific="false"
+    indicatorlimb="Head"
+    showiconthreshold="10"
+    showinhealthscannerthreshold="5"
+    treatmentthreshold="10"
+    karmachangeonapplied="-10"
+    maxstrength="80"
+    healcostmultiplier="2.75">
+    #Description de l'effet
+    <Description
+      textidentifier="afflictiondescription.sleepily.low.self"
+      target="Self"
+      minstrength="0"
+      maxstrength="50"/>
+    <Description
+      textidentifier="afflictiondescription.sleepily.medium.self"
+      target="Self"
+      minstrength="50"
+      maxstrength="100"/>
+    <Description
+      textidentifier="afflictiondescription.sleepily"
+      target="OtherCharacter"
+      minstrength="0"
+      maxstrength="50"/>
+    <Description
+      textidentifier="afflictiondescription.sleepily.high"
+      target="OtherCharacter"
+      minstrength="50"
+      maxstrength="100"/>
+    <!-- Slow the player down and sleepily in the end-->
+    <Effect minstrength="0" maxstrength="99"
+      strengthchange="1"
+      minscreendistort="0.0"
+      maxscreendistort="0.8"
+      minscreenblur="0.0"
+      maxscreenblur="0.8"
+      minspeedmultiplier="1.0"
+      maxspeedmultiplier="0.5">
+    </Effect>
+    <Effect minstrength="99" maxstrength="100"
+      strengthchange="1"
+      minscreendistort="0.8"
+      maxscreendistort="1.0"
+      minscreenblur="0.8"
+      maxscreenblur="1.0"
+      minspeedmultiplier="0.0"
+      maxspeedmultiplier="0.0">
+    </Effect>
+    <PeriodicEffect mininterval="0" maxinterval="1">
+    </PeriodicEffect>
+    <icon texture="%ModDir%/UI/Sleepily.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0"/>
+  </Affliction>
+<Affliction
+    name="Stimulants"
+    identifier="stimulants"
+    type="stimulants"
+    limbspecific="false"
+    indicatorlimb="Head"
+    showiconthreshold="10"
+    showinhealthscannerthreshold="5"
+    treatmentthreshold="10"
+    karmachangeonapplied="-10"
+    maxstrength="100"
+    healcostmultiplier="2.75">
+    <!-- Slow the player down and sleepily in the end-->
+    <Effect minstrength="0" maxstrength="99"
+      strengthchange="1"
+      minscreendistort="0.0"
+      maxscreendistort="0.8"
+      minscreenblur="0.0"
+      maxscreenblur="0.8"
+      minspeedmultiplier="1.0"
+      maxspeedmultiplier="0.5">
+    </Effect>
+    <Effect minstrength="99" maxstrength="100"
+      strengthchange="1"
+      minscreendistort="0.8"
+      maxscreendistort="1.0"
+      minscreenblur="0.8"
+      maxscreenblur="1.0"
+      minspeedmultiplier="0.0"
+      maxspeedmultiplier="0.0">
+    </Effect>
+    <icon texture="%ModDir%/UI/stimulants.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0"/>
+  </Affliction>
+
+<Affliction
+    name="Caffeine Addiction"
+    identifier="caffeineaddiction"
+    type="caffeineaddiction"
+    limbspecific="false"
+    indicatorlimb="Head"
+    showiconthreshold="10"
+    showinhealthscannerthreshold="5"
+    treatmentthreshold="10"
+    karmachangeonapplied="-10"
+    maxstrength="98"
+    healcostmultiplier="2.75">
+    <!-- Slow the player down and sleepily in the end-->
+    <Effect minstrength="0" maxstrength="99"
+      strengthchange="1"
+      minscreendistort="0.0"
+      maxscreendistort="0.8"
+      minscreenblur="0.0"
+      maxscreenblur="0.8"
+      minspeedmultiplier="1.0"
+      maxspeedmultiplier="0.5">
+    </Effect>
+    <Effect minstrength="99" maxstrength="100"
+      strengthchange="1"
+      minscreendistort="0.8"
+      maxscreendistort="1.0"
+      minscreenblur="0.8"
+      maxscreenblur="1.0"
+      minspeedmultiplier="0.0"
+      maxspeedmultiplier="0.0"
+      >
+    </Effect>
+    <icon texture="%ModDir%/UI/Sleepily.png" sourcerect="0,0,128,128" color="0,255,0,255" origin="0,0"/>
+  </Affliction>
+
+
+
+</Afflictions>
